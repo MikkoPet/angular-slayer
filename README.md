@@ -1,27 +1,48 @@
-# AngularSlayer
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.3.
+<h1 align="center">Monster Slayer</h1>
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### About The Project
 
-## Code scaffolding
+Small application that pits a player-knight against various monsters, leading to a boss.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+---
 
-## Build
+### How to play
+- Clone the repository on your local machine
+- With NPM on your global machine, open your terminal and run the command: 
+```bash
+npm install
+```
+- This will install all needed packages, mainly ANGULAR
+- After all packages are correctly installed, in the terminal, enter:
+```bash
+ng serve
+```
+- Keep the server running and access the game through the [local host](http://localhost:4200/) (by default it will be port 4200, if the server opens on another port, simply access the one indicated instead of 4200)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+### Built With
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- ![js](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+- ![ts](https://img.shields.io/badge/TypeScript-323330?style=for-the-badge&logo=typescript&logoColor=007acc)
+- ![angular](https://img.shields.io/badge/Angular-323330?style=for-the-badge&logo=angular&logoColor=dd1b16)
+- ![node](https://img.shields.io/badge/Node_JS-323330?style=for-the-badge&logo=node.js&logoColor=68a063)
 
-## Running end-to-end tests
+### Dependencies
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Node v20.12.2
+Angular 18.0.4
+Typescript 5.4.5
 
-## Further help
+## Author
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+## License
+
+Distributed under the Apache License. `LICENSE` See for more information.
+
+## Ressources
+Classes on Javascript from [javascript info](https://javascript.info/)  
+[Typescript documentation](https://www.typescriptlang.org/docs/handbook/intro.html)  
+[Angular Documentation](https://angular.dev/)
